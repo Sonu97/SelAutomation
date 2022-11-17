@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HomeTest {
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SonuP\\git\\SelAutomation\\lib\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SonuP\\git\\SelAutomation\\lib\\Project\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/");
 		driver.manage().window().maximize();
